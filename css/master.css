@@ -1,0 +1,131 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #DCDCDC;
+  margin-bottom: 30px;
+}
+
+header{
+  background-color: white;
+  padding: 10px 0;
+}
+
+.title{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo{
+  vertical-align: middle;
+  margin-left: 30px;
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.container button{
+  line-height: 30px;
+  padding: 4px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 2px solid lightgrey;
+}
+
+.buttons{
+  padding: 20px 40px;
+  border-bottom: 2px solid lightgrey;
+}
+
+.tasks{
+  padding: 40px;
+}
+
+.tasks h3{
+  font-size: 30px;
+  display: inline;
+}
+
+.firstlist{
+  list-style-type: none;
+}
+
+.firstlist>li::before{
+  content:"▼";
+}
+
+.secondlist{
+  margin: 20px 0;
+}
+
+.secondlist{
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.secondlist li{
+  margin: 15px 0;
+}
+
+.check::before{
+  content: '☑';
+  font-size: 30px;
+  color: green;
+  padding: 5px;
+}
+
+.cross::before{
+  content:"☒";
+  font-size: 30px;
+  color: red;
+  padding: 5px;
+}
+
+.blue{
+  background-color: #74adf3;
+  color: white;
+}
+
+.white{
+  background-color: white;
+  color: lightgrey;
+}
+
+.violet{
+  background-color: #8A2BE2;
+  color: white;
+}
+
+.green{
+  background-color: #556B2F;
+  color: white;
+}
+
+.orange{
+  background-color: #FF8C00;
+  color: white;
+}
+
+.ltgreen{
+  background-color: #8FBC8F;
+  color: white;
+}
+
+.red{
+  background-color: #B22222;
+  color: white;
+}
+
+.circle{
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+}
