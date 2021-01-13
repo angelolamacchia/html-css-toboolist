@@ -132,6 +132,21 @@ header{
 
 footer{
   background-color: white;
-  padding:30px;
+  padding:40px;
   margin-top: 20px;
+  font-size: 20px;
+}
+
+footer h3{
+  color: #494f9c;
+  padding: 5px 0;
+}
+
+.send{
+  padding: 5px 30px;
+  margin: 10px;
+}
+
+.mail{
+  width: 250px;
 }
